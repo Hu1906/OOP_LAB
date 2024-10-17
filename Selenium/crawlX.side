@@ -1,0 +1,84 @@
+{
+  "id": "d78b6c77-db2f-483c-9d4b-99d32a051924",
+  "version": "2.0",
+  "name": "crawlX",
+  "url": "https://x.com",
+  "tests": [{
+    "id": "e0ac1203-f9e1-45ef-9f7b-cd3332e48861",
+    "name": "Action1",
+    "commands": [{
+      "id": "2872768d-bde1-4d27-880e-f4c0b4fdb11b",
+      "comment": "",
+      "command": "open",
+      "target": "/home",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8c21d5f0-58f4-47b8-af67-f95945be88f6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "550x693",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "24039ae0-9a28-48b2-b5e8-a2200642653a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.r-1hdo0pc .r-4qtqp9",
+      "targets": [
+        ["css=.r-1hdo0pc .r-4qtqp9", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "96368dd5-ee03-4fb1-a28b-7e3533c0d06b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.css-175oi2r:nth-child(2) > .css-175oi2r > .css-175oi2r > .r-4qtqp9 path",
+      "targets": [
+        ["css=.css-175oi2r:nth-child(2) > .css-175oi2r > .css-175oi2r > .r-4qtqp9 path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "a04d8d53-172a-4fbf-b78d-b208bda447ad",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-175oi2r:nth-child(2) > .css-175oi2r:nth-child(1) > .css-175oi2r:nth-child(1) > .css-175oi2r:nth-child(2) > .css-175oi2r:nth-child(1) > .css-175oi2r:nth-child(2) > .css-175oi2r:nth-child(1) > .css-175oi2r:nth-child(1) > .css-146c3p1:nth-child(1) > .css-1jxf684:nth-child(1)",
+      "targets": [
+        ["css=.css-175oi2r:nth-child(2) > .css-175oi2r:nth-child(1) > .css-175oi2r:nth-child(1) > .css-175oi2r:nth-child(2) > .css-175oi2r:nth-child(1) > .css-175oi2r:nth-child(2) > .css-175oi2r:nth-child(1) > .css-175oi2r:nth-child(1) > .css-146c3p1:nth-child(1) > .css-1jxf684:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='react-root']/div/div/div[2]/main/div/div/div/div/div/div/div/div[2]/nav/div/div[2]/div/div[2]/a/div/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/a/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Trending')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2332daf2-2502-4e32-9030-cc2807f88cf9",
+      "comment": "",
+      "command": "click",
+      "target": "css=#id__2h40lfa9iv5 > .r-a023e6 > .css-1jxf684",
+      "targets": [
+        ["css=#id__2h40lfa9iv5 > .r-a023e6 > .css-1jxf684", "css:finder"],
+        ["xpath=//div[@id='id__2h40lfa9iv5']/div[2]/span", "xpath:idRelative"],
+        ["xpath=//section/div/div/div/div/div/div/div/div[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Thành')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cda9711f-d2f8-4158-865b-c588a8a93041",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "efe5cf2d-0cd7-4352-afc4-4a1b0c8f7aba",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e0ac1203-f9e1-45ef-9f7b-cd3332e48861"]
+  }],
+  "urls": ["https://x.com/"],
+  "plugins": []
+}
